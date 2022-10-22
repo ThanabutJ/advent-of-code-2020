@@ -9,7 +9,7 @@ fn main() {
 fn part2() {
     if let Ok(lines) = read_lines("./src/input") {
         let mut increases: i32 = 0;
-        let mut r1 = -1;
+        let mut r1;
         let mut r2 = -1;
         let mut r3 = -1;
         let mut r4 = -1;
